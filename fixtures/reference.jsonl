@@ -1,0 +1,6 @@
+{"id":"usd-rounding","value":{"ok":true,"record":{"order_id":"A-001","date":"2026-10-06","amount":"12.34","currency":"USD"}}}
+{"id":"eur-refund","value":{"ok":true,"record":{"order_id":"B-002","date":"2024-02-29","amount":"-7.56","currency":"EUR"}}}
+{"id":"gbp-zero","value":{"ok":true,"record":{"order_id":"C-003","date":"2026-01-01","amount":"0.00","currency":"GBP"}}}
+{"id":"invalid-currency","value":{"ok":false,"error":"unsupported currency"}}
+{"id":"non-finite","value":{"ok":false,"error":"amount out of range"}}
+{"id":"unexpected-field","value":{"ok":false,"error":"order requires order_id, date, amount, currency only"}}
