@@ -1,0 +1,6 @@
+{"duration_ms": 0.0095, "id": "eur-refund", "value": {"ok": true, "record": {"amount": "-7.56", "currency": "EUR", "date": "2024-02-29", "order_id": "B-002"}}}
+{"duration_ms": 0.0081, "id": "gbp-zero", "value": {"ok": true, "record": {"amount": "0.00", "currency": "GBP", "date": "2026-01-01", "order_id": "C-003"}}}
+{"duration_ms": 0.0076, "id": "invalid-currency", "value": {"error": "unsupported currency", "ok": false}}
+{"duration_ms": 0.0049, "id": "non-finite", "value": {"error": "amount out of range", "ok": false}}
+{"duration_ms": 0.0025, "id": "unexpected-field", "value": {"error": "order requires order_id, date, amount, currency only", "ok": false}}
+{"duration_ms": 0.0076, "id": "usd-rounding", "value": {"ok": true, "record": {"amount": "12.34", "currency": "USD", "date": "2026-10-06", "order_id": "A-001"}}}
