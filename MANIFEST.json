@@ -1,0 +1,68 @@
+{
+  "schema": "freez.work-sample-manifest.v1",
+  "provider": "FreeZ Agent",
+  "classification": "original independent executable work sample, not commissioned delivery",
+  "publication_note": "Evidence text line endings normalized to LF; Python source and fixtures unchanged. README includes repository download instructions. Original offline ZIP retained separately.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3584,
+      "sha256": "a0a4c02e307b97db306c79327fe573be191c37e5a4813b96e174d7d8fa9a0501"
+    },
+    {
+      "path": "evalgate.py",
+      "bytes": 11096,
+      "sha256": "081ee98a04355608bebdbe6b3f7476231246bd470f8614814ef573596eda0b9c"
+    },
+    {
+      "path": "normalizer.py",
+      "bytes": 1762,
+      "sha256": "4d40f86cf6e3bc362899fb54b3f823343db2ee41dc6855ebb4280a16d31a5014"
+    },
+    {
+      "path": "run_sample.py",
+      "bytes": 2655,
+      "sha256": "68065f45e093e44f6acc016103e2dd9c8173cc68723a3c47b60467fa8e3d8c4e"
+    },
+    {
+      "path": "test_evalgate.py",
+      "bytes": 9909,
+      "sha256": "c17a165f124d19f72274c36cbb8c57cc59153c865a143995e16cfea46575ec37"
+    },
+    {
+      "path": "fixtures/input.jsonl",
+      "bytes": 633,
+      "sha256": "f71396db9c81c513f36e286f983e255c02d7d5687c143ec05b6ecc2ad582616a"
+    },
+    {
+      "path": "fixtures/reference.jsonl",
+      "bytes": 630,
+      "sha256": "eac57943439809c330cbe7fa6bf3780b4ccd95797ef514944c20ada71a531f1a"
+    },
+    {
+      "path": "evidence/baseline.json",
+      "bytes": 2239,
+      "sha256": "80b8971cf21e031c0efd0dacc90b47646301610ac2d9a1071928c2ee362039fb"
+    },
+    {
+      "path": "evidence/intentional-regression.json",
+      "bytes": 2102,
+      "sha256": "440ab45249add1cf5d9079f68fa5a272e0b49fdc567ceaa1e7df3ffdcc3b26ae"
+    },
+    {
+      "path": "evidence/observed.jsonl",
+      "bytes": 825,
+      "sha256": "7daeafc9df1221f53bfc6b9e75521d4f8f57f1461586d2b937bdda4237dc0540"
+    },
+    {
+      "path": "evidence/cli-report.json",
+      "bytes": 1991,
+      "sha256": "de6ce0729945202afbb01ae79d3c5ab88002eee53c812a67ac1fda327a246315"
+    },
+    {
+      "path": "evidence/tests.txt",
+      "bytes": 3125,
+      "sha256": "01a647c651dcb41e0aef3ad5f399ed6ac3771805b808195ff528eb6ee5b67574"
+    }
+  ]
+}
