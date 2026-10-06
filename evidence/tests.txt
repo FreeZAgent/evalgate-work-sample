@@ -1,0 +1,36 @@
+test_boolean_is_not_number (test_evalgate.GateTests.test_boolean_is_not_number) ... ok
+test_bounded_diagnostics (test_evalgate.GateTests.test_bounded_diagnostics) ... ok
+test_exact_object_keys_and_array_length (test_evalgate.GateTests.test_exact_object_keys_and_array_length) ... ok
+test_functional_digest_excludes_latency_without_a_gate (test_evalgate.GateTests.test_functional_digest_excludes_latency_without_a_gate) ... ok
+test_json_pointer_escaping (test_evalgate.GateTests.test_json_pointer_escaping) ... ok
+test_large_integers_do_not_lose_precision (test_evalgate.GateTests.test_large_integers_do_not_lose_precision) ... ok
+test_latency_limit_requires_measurement (test_evalgate.GateTests.test_latency_limit_requires_measurement) ... ok
+test_missing_case_and_unexpected_case_fail (test_evalgate.GateTests.test_missing_case_and_unexpected_case_fail) ... ok
+test_nested_exact_pass (test_evalgate.GateTests.test_nested_exact_pass) ... ok
+test_nonfinite_and_negative_configuration (test_evalgate.GateTests.test_nonfinite_and_negative_configuration) ... ok
+test_numeric_tolerance (test_evalgate.GateTests.test_numeric_tolerance) ... ok
+test_order_independent_hash (test_evalgate.GateTests.test_order_independent_hash) ... ok
+test_percentile_interpolation_and_empty (test_evalgate.GateTests.test_percentile_interpolation_and_empty) ... ok
+test_case_count_limit (test_evalgate.InputTests.test_case_count_limit) ... ok
+test_depth_limit (test_evalgate.InputTests.test_depth_limit) ... ok
+test_duplicate_ids (test_evalgate.InputTests.test_duplicate_ids) ... ok
+test_duplicate_object_keys (test_evalgate.InputTests.test_duplicate_object_keys) ... ok
+test_duration_schema (test_evalgate.InputTests.test_duration_schema) ... ok
+test_empty_or_blank_input (test_evalgate.InputTests.test_empty_or_blank_input) ... ok
+test_line_and_file_size_limits (test_evalgate.InputTests.test_line_and_file_size_limits) ... ok
+test_malformed_utf8_and_json (test_evalgate.InputTests.test_malformed_utf8_and_json) ... ok
+test_non_finite_or_overflow_json (test_evalgate.InputTests.test_non_finite_or_overflow_json) ... ok
+test_schema_enforced (test_evalgate.InputTests.test_schema_enforced) ... ok
+test_valid_utf8_jsonl (test_evalgate.InputTests.test_valid_utf8_jsonl) ... ok
+test_cli_does_not_overwrite_input (test_evalgate.IntegrationTests.test_cli_does_not_overwrite_input) ... ok
+test_cli_exit_codes_and_atomic_report (test_evalgate.IntegrationTests.test_cli_exit_codes_and_atomic_report) ... ok
+test_failed_atomic_replace_leaves_no_temporary_file (test_evalgate.IntegrationTests.test_failed_atomic_replace_leaves_no_temporary_file) ... ok
+test_real_sample_baseline_regression_and_repeatability (test_evalgate.IntegrationTests.test_real_sample_baseline_regression_and_repeatability) ... ok
+test_bad_dates (test_evalgate.NormalizerTests.test_bad_dates) ... ok
+test_decimal_rounding_and_leap_day (test_evalgate.NormalizerTests.test_decimal_rounding_and_leap_day) ... ok
+test_invalid_amounts (test_evalgate.NormalizerTests.test_invalid_amounts) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 2.888s
+
+OK
