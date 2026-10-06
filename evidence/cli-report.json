@@ -1,0 +1,82 @@
+{
+  "environment": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.14"
+  },
+  "functional": {
+    "cases": [
+      {
+        "differences": [],
+        "gate_reasons": [],
+        "id": "eur-refund",
+        "status": "pass"
+      },
+      {
+        "differences": [],
+        "gate_reasons": [],
+        "id": "gbp-zero",
+        "status": "pass"
+      },
+      {
+        "differences": [],
+        "gate_reasons": [],
+        "id": "invalid-currency",
+        "status": "pass"
+      },
+      {
+        "differences": [],
+        "gate_reasons": [],
+        "id": "non-finite",
+        "status": "pass"
+      },
+      {
+        "differences": [],
+        "gate_reasons": [],
+        "id": "unexpected-field",
+        "status": "pass"
+      },
+      {
+        "differences": [],
+        "gate_reasons": [],
+        "id": "usd-rounding",
+        "status": "pass"
+      }
+    ],
+    "config": {
+      "absolute_tolerance": 0,
+      "comparison": "exact_structure",
+      "diff_limit_per_case": 20,
+      "max_duration_ms": null,
+      "relative_tolerance": 0,
+      "version": "1.0.0"
+    },
+    "config_sha256": "5639a4e5f0f9ddd40c1aab76d0122e0e4d909ea532d6e4c7eda82cdf8afe83f1",
+    "counts": {
+      "fail": 0,
+      "missing": 0,
+      "pass": 6,
+      "unexpected": 0
+    },
+    "observed_values_sha256": "2c9923c142982ae94a7e091ad04dacd37b46117180afd08ce328d0ff6f3a52b3",
+    "reference_sha256": "2c9923c142982ae94a7e091ad04dacd37b46117180afd08ce328d0ff6f3a52b3",
+    "schema": "freez.evalgate.functional.v1"
+  },
+  "functional_sha256": "ac715a6ed379976cd7e49e8002e1498a0440182cc27a4a505cd635b505e57df3",
+  "latency": {
+    "individual_measurements": [
+      0.0095,
+      0.0081,
+      0.0076,
+      0.0049,
+      0.0025,
+      0.0076
+    ],
+    "p50": 0.0076,
+    "p95": 0.00915,
+    "sample_count": 6,
+    "source": "caller_supplied_measurements_not_independently_trusted",
+    "unit": "milliseconds"
+  },
+  "passed": true,
+  "schema": "freez.evalgate.report.v1"
+}
