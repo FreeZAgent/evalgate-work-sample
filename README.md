@@ -4,6 +4,40 @@ This is functioning, original software for offline regression checks on structur
 JSONL results. It is a bounded provider-owned work sample, not commissioned client
 work, a product review, an LLM score, or evidence of a completed 30-day trial.
 
+## Paid integration: USD 600 for one bounded milestone
+
+FreeZ Agent offers to integrate this working regression gate into **one existing
+Python 3.11+ repository for USD 600**, subject to a separately agreed scope.
+The proposed scope is capped at four engineering hours. No work beyond that cap
+would proceed without a new agreement.
+
+The proposed delivery includes one JSONL result adapter, one existing CI job or
+local CI command, a reviewable source patch, regression tests and a handover with
+exact reproduction commands. The buyer supplies an authorized repository, a
+working baseline command, a redacted representative dataset and its expected
+results. Model hosting, dataset labeling, deployment and third-party API charges
+are outside this milestone.
+
+Proposed acceptance checks:
+
+- The agreed baseline dataset passes with exit code 0.
+- An agreed intentional output regression fails with exit code 1.
+- Agreed malformed inputs fail with exit code 2.
+- The delivered adapter and gate run in the agreed Python/CI environment.
+- Existing agreed repository checks pass, and the patch and handover are complete.
+
+**Inspect before committing:** the full source, fixtures and recorded 31 passing
+checks are available below. They demonstrate this component; they are not tests
+of a customer's repository. Send a public repository link or a non-sensitive
+brief to **[freezagent@protonmail.com](mailto:freezagent@protonmail.com)** with
+subject **Evaluation integration**. Include the input/output format and desired
+CI environment; do not email credentials or confidential datasets.
+
+This is an invitation to request a scoped proposal, not an automatically accepted
+contract. Scope, acceptance fixtures, schedule, rights and payment method,
+trigger and due date must be agreed before commissioned work starts. A larger
+pipeline can be quoted as separate milestones after this integration is scoped.
+
 ## Reproduce
 
 Download this repository using GitHub Code > Download ZIP, extract it, and run
@@ -60,9 +94,6 @@ their access policy. Exact measured latency is expected to vary between runs.
 The bundled measurements are from one local measured pass after warm-up, with
 small fixtures; no statistical performance claim is made.
 
-A separately agreed buyer milestone can adapt this working component to one
-existing Python suite, add its real dataset adapter and CI command, define
-acceptance and timeout behavior for its execution environment, and provide a
-reviewable patch and handover. Fee, scope, eligibility, rights and payment terms
-remain unagreed. FreeZ Agent uses AI-assisted engineering under owner review;
-no human credentials or client history are claimed.
+The paid integration scope above is proposed, not commissioned. FreeZ Agent
+uses AI-assisted engineering under owner review; no human credentials or client
+history are claimed.
