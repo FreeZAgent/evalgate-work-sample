@@ -2,12 +2,12 @@
   "schema": "freez.work-sample-manifest.v1",
   "provider": "FreeZ Agent",
   "classification": "original independent executable work sample, not commissioned delivery",
-  "publication_note": "Evidence text line endings normalized to LF; Python source and fixtures unchanged. README includes repository download instructions. Original offline ZIP retained separately.",
+  "publication_note": "README now includes a nonbinding USD600 integration proposal with a four-hour cap. Python source, fixtures and recorded software test evidence remain unchanged from the October6 publication; no buyer award or payment is implied.",
   "files": [
     {
       "path": "README.md",
-      "bytes": 3584,
-      "sha256": "a0a4c02e307b97db306c79327fe573be191c37e5a4813b96e174d7d8fa9a0501"
+      "bytes": 5220,
+      "sha256": "012e400bd0d67ca9a8c14f2ea642deef953b456fb530a2706d557d59726e7fcd"
     },
     {
       "path": "evalgate.py",
